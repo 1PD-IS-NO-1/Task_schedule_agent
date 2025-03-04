@@ -23,3 +23,35 @@ we will try to implement Time tracking where employees can track their time spen
 ![Task added in db and user can edit task](image.png)
 
 ![By the help of this button user can add extra column](image-1.png)
+
+# Data on Onlin sqlite viewer
+![Data on Onlin sqlite viewer](image-2.png)
+
+
+
+## Start Application after clone
+'''
+pip install -r requirements.txt
+
+'''
+
+### Create Database
+
+'''
+python init_db.py
+'''
+### Update or create Migration
+
+'''
+flask db init
+'''
+
+'''
+flask db upgrade
+'''
+
+## Run application
+
+'''
+flask run 
+'''
